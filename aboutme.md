@@ -8,7 +8,7 @@ subtitle: 95% figuring it out. 5% pretending I already did.
 
 ## My Background
 
-I grew up in Menlo Park, California, with a brother, sister, two loving parents, and a golden retriever, Cooper. As a kid, I once secretly hoarded spoons from the kitchen and stashed them in my room — not for mischief, but because I was worried we might run out one day. I think this highlights how I think: I like anticipating problems before they show up and quietly solving them in advance. That same instinct — to plan, build, and prepare for the unknown — still drives how I approach everything.
+I grew up in Menlo Park, California, with a brother, sister, two loving parents, and a golden retriever, Cooper. As a kid, I once secretly hoarded spoons from the kitchen and stashed them in my room not for mischief, but because I was worried we might run out one day. I think this highlights how I think: I like anticipating problems before they show up and quietly solving them in advance. That same instinct to plan, build, and prepare for the unknown still drives how I approach everything.
 
 ## Education
 
