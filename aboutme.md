@@ -21,48 +21,50 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
 <style>
   #timeline {
-  position: relative;
-  margin-left: 60px;
-  padding-left: 40px;
+    position: relative;
+    margin-left: 60px;
+    padding-left: 40px;
   }
 
- #timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 20px;
-  width: 4px;
-  background-color: #0c2340;
-  z-index: 0;
+  /* Draw vertical line */
+  #timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px; /* Aligns with circle center */
+    width: 4px;
+    background-color: #0c2340;
+    z-index: 0;
   }
 
   .timeline-item {
-  position: relative;
-  margin-bottom: 50px;
-  transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+    padding-left: 40px; /* spacing from the circle */
   }
 
+  /* Circle marker */
   .timeline-circle {
-  position: absolute;
-  left: 20px; /* matches the line position */
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #0c2340;
-  border-radius: 50%;
-  z-index: 2;
-  transform: translateX(-50%); /* centers circle over line */
-  transition: transform 0.2s ease;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #0c2340;
+    border-radius: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
+    transition: transform 0.2s ease;
   }
 
   .timeline-content {
-    padding-left: 10px;
     transition: all 0.3s ease;
   }
 
   .timeline-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin: 0;
     color: #0c2340;
@@ -83,11 +85,12 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
     font-size: 0.95rem;
   }
 
+  /* Hover-expand style */
   .timeline-item.expanded {
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 20px 15px 60px;
   }
 
   .timeline-item.expanded .timeline-description {
@@ -95,7 +98,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
   }
 
   .timeline-item.expanded .timeline-circle {
-    transform: scale(1.3);
+    transform: translateX(-50%) scale(1.3);
   }
 </style>
 
@@ -116,11 +119,11 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
       description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to Morgan Stanley representatives.'
     },
     {
-      period: 'Spring 2024 - Summer 2024',
+      period: 'Spring 2024 – Summer 2024',
       title: 'Intern',
       company: 'Kuttin Family Office',
       location: '',
-      description: 'JFJFJF.'
+      description: 'Worked on private wealth and estate planning research across high-net-worth portfolios.'
     },
   ];
 
