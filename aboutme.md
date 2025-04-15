@@ -45,20 +45,6 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
     padding-left: 40px; /* spacing from the circle */
   }
 
-  /* Circle marker */
-  .timeline-circle {
-    position: absolute;
-    left: 20px;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    background-color: #0c2340;
-    border-radius: 50%;
-    z-index: 2;
-    transform: translateX(-50%);
-    transition: transform 0.2s ease;
-  }
-
   .timeline-content {
     transition: all 0.3s ease;
   }
