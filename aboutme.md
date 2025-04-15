@@ -21,28 +21,38 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
 <style>
   #timeline {
-    position: relative;
-    margin-left: 60px;
-    padding-left: 40px;
-    border-left: 4px solid #0c2340;
+  position: relative;
+  margin-left: 60px;
+  padding-left: 40px;
+  }
+
+ #timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  background-color: #0c2340;
+  z-index: 0;
   }
 
   .timeline-item {
   position: relative;
   margin-bottom: 50px;
   transition: all 0.3s ease;
-  border-radius: 10px;
   }
 
   .timeline-circle {
     position: absolute;
-    left: -21px; /* centers the 20px circle on the 4px line */
+    left: 0; /* centers the 20px circle on the 4px line */
     top: 0;
     width: 20px;
     height: 20px;
     background-color: #0c2340;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
+    transform: translateX(-50%);
     transition: transform 0.2s ease;
   }
 
