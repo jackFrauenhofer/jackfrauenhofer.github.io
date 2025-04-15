@@ -17,21 +17,87 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
 ## Experience
 
-<div class="experience">
-  <h3>Morgan Stanley</h3>
-  <p><em>Incoming Investment Banking Analyst</em> | New York, NY | Summer 2025</p>
-  <ul>
-    <li>Selected for competitive sophomore internship program</li>
-    <li>Worked on aerospace M&A case with cross-functional team</li>
-    <li>Presented findings to VP-level executives</li>
-  </ul>
-</div>
+<div id="timeline"></div>
 
-<div class="timeline-item">
-  <h3>2024 – Present</h3>
-  <h4>Strategic Advisory Project – Team Leader</h4>
-  <p><strong>Notre Dame SIBC</strong></p>
-  <p>Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to board.</p>
+<script>
+  const experiences = [
+    {
+      year: '2025',
+      title: 'Incoming Investment Banking Analyst',
+      company: 'Morgan Stanley',
+      location: 'New York, NY',
+      description: 'Selected for competitive sophomore internship program. Worked on aerospace M&A case with cross-functional team. Presented findings to VP-level executives.'
+    },
+    {
+      year: '2024 – Present',
+      title: 'Team Leader',
+      company: 'Strategic Advisory Project – Notre Dame SIBC',
+      description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to board.'
+    }
+  ];
+
+  const timelineContainer = document.getElementById('timeline');
+  experiences.forEach((experience, index) => {
+    const timelineItem = document.createElement('div');
+    timelineItem.className = 'timeline-item';
+    timelineItem.innerHTML = `
+      <div class="timeline-bubble" onmouseover="showDescription(${index})" onmouseout="hideDescription(${index})">
+        <div class="bubble" id="bubble-${index}" style="display: none;">
+          <h4>${experience.title}</h4>
+          <p>${experience.description}</p>
+        </div>
+      </div>
+      <div class="timeline-content">
+        <h3>${experience.year}</h3>
+        <h4>${experience.company} | ${experience.location || ''}</h4>
+      </div>
+    `;
+    timelineContainer.appendChild(timelineItem);
+  });
+
+  function showDescription(index) {
+    document.getElementById(`bubble-${index}`).style.display = 'block';
+  }
+
+  function hideDescription(index) {
+    document.getElementById(`bubble-${index}`).style.display = 'none';
+  }
+</script>
+
+<style>
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  .timeline-item {
+    margin: 20px 0;
+    position: relative;
+  }
+  .timeline-bubble {
+    position: absolute;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .bubble {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .timeline-content {
+    margin-left: 50px;
+  }
+</style>
 </div>
 
 
