@@ -19,86 +19,109 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
 <div id="timeline"></div>
 
+<style>
+  #timeline {
+    position: relative;
+    margin-left: 50px;
+    padding-left: 30px;
+    border-left: 4px solid #007bff;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+  }
+
+  .timeline-circle {
+    position: absolute;
+    left: -38px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 0 3px #007bff;
+    z-index: 1;
+    transition: transform 0.2s ease;
+  }
+
+  .timeline-content {
+    padding-left: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .timeline-title {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .timeline-sub {
+    margin: 4px 0 0;
+    color: #555;
+  }
+
+  .timeline-description {
+    margin-top: 10px;
+    display: none;
+    max-width: 500px;
+    line-height: 1.4;
+    color: #333;
+  }
+
+  .timeline-item.expanded .timeline-description {
+    display: block;
+  }
+
+  .timeline-item.expanded .timeline-circle {
+    transform: scale(1.3);
+  }
+</style>
+
 <script>
   const experiences = [
     {
-      year: '2025',
+      period: 'Summer 2025',
       title: 'Incoming Investment Banking Analyst',
       company: 'Morgan Stanley',
       location: 'New York, NY',
       description: 'Selected for competitive sophomore internship program. Worked on aerospace M&A case with cross-functional team. Presented findings to VP-level executives.'
     },
     {
-      year: '2024 – Present',
+      period: '2024 – Present',
       title: 'Team Leader',
       company: 'Strategic Advisory Project – Notre Dame SIBC',
+      location: '',
       description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to board.'
     }
   ];
 
-  const timelineContainer = document.getElementById('timeline');
-  experiences.forEach((experience, index) => {
-    const timelineItem = document.createElement('div');
-    timelineItem.className = 'timeline-item';
-    timelineItem.innerHTML = `
-      <div class="timeline-bubble" onmouseover="showDescription(${index})" onmouseout="hideDescription(${index})">
-        <div class="bubble" id="bubble-${index}" style="display: none;">
-          <h4>${experience.title}</h4>
-          <p>${experience.description}</p>
-        </div>
-      </div>
+  const container = document.getElementById('timeline');
+
+  experiences.forEach((exp, index) => {
+    const item = document.createElement('div');
+    item.className = 'timeline-item';
+
+    item.innerHTML = `
+      <div class="timeline-circle"></div>
       <div class="timeline-content">
-        <h3>${experience.year}</h3>
-        <h4>${experience.company} | ${experience.location || ''}</h4>
+        <p class="timeline-title">${exp.period} — ${exp.title}</p>
+        <p class="timeline-sub">${exp.company}${exp.location ? ' | ' + exp.location : ''}</p>
+        <p class="timeline-description">${exp.description}</p>
       </div>
     `;
-    timelineContainer.appendChild(timelineItem);
+
+    item.addEventListener('mouseenter', () => {
+      item.classList.add('expanded');
+    });
+    item.addEventListener('mouseleave', () => {
+      item.classList.remove('expanded');
+    });
+
+    container.appendChild(item);
   });
-
-  function showDescription(index) {
-    document.getElementById(`bubble-${index}`).style.display = 'block';
-  }
-
-  function hideDescription(index) {
-    document.getElementById(`bubble-${index}`).style.display = 'none';
-  }
 </script>
-
-<style>
-  #timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-  }
-  .timeline-item {
-    margin: 20px 0;
-    position: relative;
-  }
-  .timeline-bubble {
-    position: absolute;
-    left: -20px;
-    width: 20px;
-    height: 20px;
-    background-color: #007bff;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  .bubble {
-    position: absolute;
-    top: -10px;
-    left: 30px;
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  .timeline-content {
-    margin-left: 50px;
-  }
-</style>
-</div>
 
 
 
