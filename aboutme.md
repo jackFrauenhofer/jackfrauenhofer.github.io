@@ -14,4 +14,8 @@ I grew up in Menlo Park, California, with a brother, sister, two loving parents,
 
 I’m currently pursuing a B.A. at the University of Notre Dame, double majoring in Computer Science and Economics. I’ve been named to the Dean’s List every semester, currently holding a 3.98 GPA. Before college, I took a gap year through EF Education First, traveling through 13 European countries in a language immersion and internship program that expanded both my worldview and my Spotify playlist.
 
+## Experience
+
+
+
 
