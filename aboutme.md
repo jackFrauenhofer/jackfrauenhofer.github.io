@@ -17,7 +17,22 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
 ## Experience
 
-HI
+<div class="experience">
+  <h3>Morgan Stanley</h3>
+  <p><em>Incoming Investment Banking Analyst</em> | New York, NY | Summer 2025</p>
+  <ul>
+    <li>Selected for competitive sophomore internship program</li>
+    <li>Worked on aerospace M&A case with cross-functional team</li>
+    <li>Presented findings to VP-level executives</li>
+  </ul>
+</div>
+
+<div class="timeline-item">
+  <h3>2024 – Present</h3>
+  <h4>Strategic Advisory Project – Team Leader</h4>
+  <p><strong>Notre Dame SIBC</strong></p>
+  <p>Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to board.</p>
+</div>
 
 
 
