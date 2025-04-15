@@ -8,7 +8,7 @@ subtitle: A Digital Library Of My Favorites
 
 ## Shogun
 
-#### _James Clavell_          ![Shogun Cover][https://yourusername.github.io/assets/img/shogun.jpg]
+#### _James Clavell_          ![Shogun Cover](https://yourusername.github.io/assets/img/shogun.jpg)
 A crystal clear window into Feudal Japan
 
 
