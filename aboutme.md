@@ -24,7 +24,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
     position: relative;
     margin-left: 60px;
     padding-left: 40px;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #0c2340;
   }
 
   .timeline-item {
@@ -39,7 +39,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
     top: 0;
     width: 20px;
     height: 20px;
-    background-color: #007bff;
+    background-color: #0c2340;
     border-radius: 50%;
     z-index: 1;
     transition: transform 0.2s ease;
@@ -88,14 +88,21 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
       title: 'Incoming Investment Banking Analyst',
       company: 'Morgan Stanley',
       location: 'New York, NY',
-      description: 'Selected for competitive sophomore internship program. Worked on aerospace M&A case with cross-functional team. Presented findings to VP-level executives.'
+      description: 'Selected for competitive sophomore internship program.'
     },
     {
-      period: '2024 – Present',
+      period: 'Fall 2024',
       title: 'Team Leader',
-      company: 'Strategic Advisory Project – Notre Dame SIBC',
+      company: 'Morgan Stanley Strategic Advisory Project – Notre Dame SIBC',
+      location: 'New York, NY',
+      description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to Morgan Stanley representatives.'
+    }
+    {
+      period: 'Spring 2024 - Summer 2024',
+      title: 'Intern',
+      company: 'Kuttin Family Office',
       location: '',
-      description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to board.'
+      description: 'JFJFJF.'
     }
   ];
 
