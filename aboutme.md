@@ -28,9 +28,10 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
   }
 
   .timeline-item {
-    position: relative;
-    margin-bottom: 50px;
-    transition: all 0.3s ease;
+  position: relative;
+  margin-bottom: 50px;
+  transition: all 0.3s ease;
+  border-radius: 10px;
   }
 
   .timeline-circle {
@@ -72,6 +73,13 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
     font-size: 0.95rem;
   }
 
+  .timeline-item.expanded {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  }
+
   .timeline-item.expanded .timeline-description {
     display: block;
   }
@@ -96,14 +104,14 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
       company: 'Morgan Stanley Strategic Advisory Project – Notre Dame SIBC',
       location: 'New York, NY',
       description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to Morgan Stanley representatives.'
-    }
+    },
     {
       period: 'Spring 2024 - Summer 2024',
       title: 'Intern',
       company: 'Kuttin Family Office',
       location: '',
       description: 'JFJFJF.'
-    }
+    },
   ];
 
   const container = document.getElementById('timeline');
