@@ -52,7 +52,7 @@ subtitle: A Digital Library Of My Favorites
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="/assets/img/pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
+  <img src="/assets/img/Pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
   <div>
     <h3>The Pelican Brief</h3>
     <h4><em>John Grisham</em></h4>
@@ -61,7 +61,7 @@ subtitle: A Digital Library Of My Favorites
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="/assets/img/pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
+  <img src="/assets/img/Beats.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
   <div>
     <h3>The Little Book That Beats The Market</h3>
     <h4><em>Joel Greenblatt</em></h4>
