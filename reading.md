@@ -15,9 +15,20 @@ subtitle: A Digital Library Of My Favorites
   </div>
 </div>
 
+<div style="display: flex; align-items: center;">
+  <img src="/assets/img/pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
+  <div>
+    <h3>The Pelican Brief</h3>
+    <h4><em>John Grisham</em></h4>
+    <p></p>
+  </div>
+</div>
 
-<!-- Image on right, text on left -->
-
-## Shogun
-#### _James Clavell_          ![Shogun Cover](https://jackFrauenhofer.github.io/assets/img/shogun.jpg)
-A crystal clear window into Feudal Japan
+<div style="display: flex; align-items: center;">
+  <img src="/assets/img/pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
+  <div>
+    <h3>The Pelican Brief</h3>
+    <h4><em>John Grisham</em></h4>
+    <p></p>
+  </div>
+</div>

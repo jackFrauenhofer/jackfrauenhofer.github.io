@@ -24,7 +24,7 @@ navbar-links:
   Interests:
     - Reading List: "reading"
     - Travel: "travel"
-  CV: ""
+  CV: "[View My Resume](https://jackfrauenhofer.github.io/assets/files/Frauenhofer_Jack_(4.14.2025).pdf)"
 
 ################
 # --- Logo --- #
@@ -139,14 +139,14 @@ navbar-var-length: false
 page-col: "#FFFFFF"
 text-col: "#0c2340"
 link-col: "#008AFF"
-hover-col: "#0c2340"
-navbar-col: "#0c2340"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+hover-col: "#ae9142"
+navbar-col: "#ae9142"
+navbar-text-col: "#FFFFFF" 
+navbar-border-col: "#0c2340"
 footer-col: "#0c2340"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#ae9142"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
