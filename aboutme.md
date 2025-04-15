@@ -31,7 +31,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 20px;
   width: 4px;
   background-color: #0c2340;
   z-index: 0;
@@ -44,16 +44,16 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
   }
 
   .timeline-circle {
-    position: absolute;
-    left: 0; /* centers the 20px circle on the 4px line */
-    top: 0;
-    width: 20px;
-    height: 20px;
-    background-color: #0c2340;
-    border-radius: 50%;
-    z-index: 2;
-    transform: translateX(-50%);
-    transition: transform 0.2s ease;
+  position: absolute;
+  left: 20px; /* matches the line position */
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #0c2340;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translateX(-50%); /* centers circle over line */
+  transition: transform 0.2s ease;
   }
 
   .timeline-content {
