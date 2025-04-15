@@ -22,27 +22,25 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 <style>
   #timeline {
     position: relative;
-    margin-left: 50px;
-    padding-left: 30px;
+    margin-left: 60px;
+    padding-left: 40px;
     border-left: 4px solid #007bff;
   }
 
   .timeline-item {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     transition: all 0.3s ease;
   }
 
   .timeline-circle {
     position: absolute;
-    left: -38px;
+    left: -21px; /* centers the 20px circle on the 4px line */
     top: 0;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: #007bff;
     border-radius: 50%;
-    border: 4px solid white;
-    box-shadow: 0 0 0 3px #007bff;
     z-index: 1;
     transition: transform 0.2s ease;
   }
@@ -53,21 +51,25 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
   }
 
   .timeline-title {
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: 700;
     margin: 0;
+    color: #0c2340;
   }
 
   .timeline-sub {
     margin: 4px 0 0;
     color: #555;
+    font-size: 0.95rem;
   }
 
   .timeline-description {
     margin-top: 10px;
     display: none;
-    max-width: 500px;
-    line-height: 1.4;
+    max-width: 600px;
+    line-height: 1.5;
     color: #333;
+    font-size: 0.95rem;
   }
 
   .timeline-item.expanded .timeline-description {
