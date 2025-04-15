@@ -32,3 +32,12 @@ subtitle: A Digital Library Of My Favorites
     <p></p>
   </div>
 </div>
+
+<div style="display: flex; align-items: center;">
+  <img src="/assets/img/pelican.jpeg" alt="Shogun Cover" style="width: 150px; margin-right: 20px;">
+  <div>
+    <h3>The Pelican Brief</h3>
+    <h4><em>John Grisham</em></h4>
+    <p></p>
+  </div>
+</div>
