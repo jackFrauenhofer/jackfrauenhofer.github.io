@@ -74,7 +74,7 @@ subtitle: My Recommended Top 20 Books
   <div>
     <h3>The Da Vinci Code</h3>
     <h4><em>Dan Brown</em></h4>
-    <p>One of the best mysteries ever written. There is a reason it is world renowned.</p>
+    <p>One of the best mysteries ever written. There is a reason it is world renowned</p>
   </div>
 </div>
 
@@ -83,7 +83,7 @@ subtitle: My Recommended Top 20 Books
   <div>
     <h3>Beneath a Scarlet Sky</h3>
     <h4><em>Mark Sullivan</em></h4>
-    <p>Very heart-wrenching historical fiction that explores Germany's occupation of Italy.</p>
+    <p>Very heart-wrenching historical fiction that explores Germany's occupation of Italy</p>
   </div>
 </div>
 
@@ -92,7 +92,7 @@ subtitle: My Recommended Top 20 Books
   <div>
     <h3>The Power</h3>
     <h4><em>Naomi Alderman</em></h4>
-    <p>Very eye opening to our society and power dynamics.</p>
+    <p>Very eye opening to our society and power dynamics that go unnoticed by half of the population, including me</p>
   </div>
 </div>
 
@@ -101,7 +101,7 @@ subtitle: My Recommended Top 20 Books
   <div>
     <h3>Throne of Glass</h3>
     <h4><em>Sarah J. Maas</em></h4>
-    <p>One of the best underrated fantasy series ever written.</p>
+    <p>One of the best, underrated fantasy series ever written</p>
   </div>
 </div>
 

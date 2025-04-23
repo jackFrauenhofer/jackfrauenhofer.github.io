@@ -24,6 +24,8 @@ navbar-links:
   Interests:
     - Reading List: "reading"
     - Travel: "travel"
+  Projects:
+    - BullRun: "bullrun"
   CV: "https://jackfrauenhofer.github.io/assets/Frauenhofer_Jack_(4.14.2025).pdf"
 
 ################

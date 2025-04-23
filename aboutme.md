@@ -95,14 +95,14 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
       title: 'Incoming Investment Banking Analyst',
       company: 'Morgan Stanley',
       location: 'New York, NY',
-      description: 'Selected for competitive sophomore internship program.'
+      description: ''
     },
     {
       period: 'Fall 2024',
       title: 'Team Leader',
       company: 'Morgan Stanley Strategic Advisory Project – Notre Dame SIBC',
       location: 'New York, NY',
-      description: 'Led a team to advise AeroVironment (NASDAQ: AVAV) on strategic growth. Delivered final presentation to Morgan Stanley representatives.'
+      description: 'Led a group of sophomores in a case study to advise AeroVironment (NASDAQ: AVAV), an A&D, drone manufacturer, on a potential acquisition of DroneShielf (ASX: DRO), a counter-UAS provider'
     },
     {
       period: 'Spring 2024 – Summer 2024',
