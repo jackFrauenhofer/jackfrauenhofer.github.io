@@ -7,140 +7,46 @@ subtitle:
 
 As a kid, I once secretly hoarded spoons from the kitchen and stashed them in my room not for mischief, but because I was worried we might run out one day. I think this highlights how I think: I like anticipating problems before they show up and quietly solving them in advance. That same instinct to plan, build, and prepare for the unknown still drives how I approach everything.
 
-## My Background
+### My Background
 
 I grew up in Menlo Park, California with a brother, sister, two loving parents, and a golden retriever, Cooper. I  feel incredibly lucky to have been raised in a home filled with love, support, and the kind of values that have shaped who I am today.
 
-## Education
+### Education
 
 I’m currently pursuing a B.A. in Computer Science and Economics at the University of Notre Dame. I’ve been named to the Dean’s List every semester, currently holding a 3.98 GPA. Before college, I took a gap year through EF Education First, traveling through 13 European countries in a language immersion and internship program that expanded both my worldview and my Spotify playlist.
 
-## Experience
+### Experience
 
-<div id="timeline"></div>
+## Morgan Stanley, Incoming Sophomore Investment Banking Analyst, Manhattan, NY | Summer 2025
 
-<style>
-  #timeline {
-    position: relative;
-    margin-left: 60px;
-    padding-left: 40px;
-  }
+Selected as an incoming Sophomore Investment Banking Analyst for Summer 2025 at Morgan Stanley's Manhattan office.
 
-  /* Draw vertical line */
-  #timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 20px; /* Aligns with circle center */
-    width: 4px;
-    background-color: #0c2340;
-    z-index: 0;
-  }
+## Student International Business Council
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 50px;
-    transition: all 0.3s ease;
-    padding-left: 40px; /* spacing from the circle */
-  }
+# Morgan Stanley Strategic Advisory Project (Team Leader, Fall 2024)
 
-  .timeline-content {
-    transition: all 0.3s ease;
-  }
+Led a team of sophomores advising AeroVironment on a potential acquisition of DroneShield, using detailed intrinsic and extrinsic valuation techniques. Presented strategic recommendations directly to Morgan Stanley professionals.
 
-  .timeline-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin: 0;
-    color: #0c2340;
-  }
+# Lazard Restructuring Project (Team Member, Spring 2024)
 
-  .timeline-sub {
-    margin: 4px 0 0;
-    color: #555;
-    font-size: 0.95rem;
-  }
+Researched WW International’s distressed financial situation and proposed two refinance strategies to reduce $500M in debt. Identified a drop-down transaction as the optimal approach to address upcoming debt maturities.
 
-  .timeline-description {
-    margin-top: 10px;
-    display: none;
-    max-width: 600px;
-    line-height: 1.5;
-    color: #333;
-    font-size: 0.95rem;
-  }
+# GTCR LBO Project (Team Member, Fall 2023)
 
-  /* Hover-expand style */
-  .timeline-item.expanded {
-    background-color: #efe9d9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 15px 20px 15px 60px;
-  }
+Evaluated Teladoc as a leveraged buyout candidate using precedent transactions, DCF, and LBO modeling. Recommended a strategic acquisition at a 30% premium to the GTCR team in Chicago.
 
-  .timeline-item.expanded .timeline-description {
-    display: block;
-  }
+## Notre Dame Investment Club, Analyst, Notre Dame, IN
 
-  .timeline-item.expanded .timeline-circle {
-    transform: translateX(-50%) scale(1.3);
-  }
-</style>
+Pitched a “buy” recommendation for Boeing amidst short-term production and liquidity issues that have swayed investors away from long-term value in a fortified duopoly.
 
-<script>
-  const experiences = [
-    {
-      period: 'Summer 2025',
-      title: 'Incoming Investment Banking Analyst',
-      company: 'Morgan Stanley',
-      location: 'New York, NY',
-      description: ''
-    },
-    {
-      period: 'Fall 2024',
-      title: 'Team Leader',
-      company: 'Morgan Stanley Strategic Advisory Project – Notre Dame SIBC',
-      location: 'New York, NY',
-      description: 'Led a group of sophomores in a case study to advise AeroVironment (NASDAQ: AVAV), an A&D, drone manufacturer, on a potential acquisition of DroneShielf (ASX: DRO), a counter-UAS provider'
-    },
-    {
-      period: 'Spring 2024 – Summer 2024',
-      title: 'Intern',
-      company: 'Kuttin Family Office',
-      location: '',
-      description: ''
-    },
-  ];
+Pitched a "long" on Crocs due to a misinterpreted pipeline fill after the acquistion of HEYDUDES that skewed earnings growth
 
-  const container = document.getElementById('timeline');
+Initiated coverage on Mastercard with a "hold" rating, citing network strength and future upside in value-added services.
 
-  experiences.forEach((exp, index) => {
-    const item = document.createElement('div');
-    item.className = 'timeline-item';
+## Kuttin Family Office, Intern, Hauppauge, NY | Spring 2024 – Summer 2024
 
-    item.innerHTML = `
-      <div class="timeline-circle"></div>
-      <div class="timeline-content">
-        <p class="timeline-title">${exp.period} — ${exp.title}</p>
-        <p class="timeline-sub">${exp.company}${exp.location ? ' | ' + exp.location : ''}</p>
-        <p class="timeline-description">${exp.description}</p>
-      </div>
-    `;
+Interned virtually at Kuttin Family Office, a team within Ameriprise Financial Services specializing in private business acquisitions under the supervision of Notre Dame alumni Tom Daly. Built LBO models, sourced potential investments, and developed relationships with CEOs and brokers across multiple industries.
 
-    item.addEventListener('mouseenter', () => {
-      item.classList.add('expanded');
-    });
-    item.addEventListener('mouseleave', () => {
-      item.classList.remove('expanded');
-    });
+## Thread, Business Development Intern, Stockholm, Sweden — Spring 2023
 
-    container.appendChild(item);
-  });
-</script>
-
-
-
-
-
-
+Worked at Thread, a boutique consulting firm focused on M&A and strategic advisory. Created a strategic expansion plan for Stockholm Tillväxt to drive SME restructuring and generate 1,000 new jobs in Nyköping County within three years.
