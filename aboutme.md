@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: 95% figuring it out. 5% pretending I already did.
+subtitle: 
 ---
 
 
@@ -73,7 +73,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
 
   /* Hover-expand style */
   .timeline-item.expanded {
-    background-color: #f2f2f2;
+    background-color: #efe9d9;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 15px 20px 15px 60px;
@@ -109,7 +109,7 @@ I’m currently pursuing a B.A. in Computer Science and Economics at the Univers
       title: 'Intern',
       company: 'Kuttin Family Office',
       location: '',
-      description: 'Worked on private wealth and estate planning research across high-net-worth portfolios.'
+      description: ''
     },
   ];
 
