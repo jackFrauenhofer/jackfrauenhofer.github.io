@@ -37,10 +37,13 @@ In my free time, I love competing — whether it’s playing poker, euchre, or o
 # Leadership
 
 ### <span style="color: #ae9142;">Student International Business Council</span>
+
 ##### <span style="color: #ae9142;">Morgan Stanley Strategic Advisory Project (Team Leader | Fall 2024)</span>
 - Led a team of sophomores advising **AeroVironment** on a potential acquisition of DroneShield, using detailed intrinsic and extrinsic valuation techniques. Presented strategic recommendations directly to Morgan Stanley professionals.
+
 ##### <span style="color: #ae9142;">Lazard Restructuring Project (Team Member | Spring 2024)</span>
 - Researched **WW International’s** distressed financial situation and proposed two refinance strategies to reduce $500M in debt. Identified a drop-down transaction as the optimal approach to address upcoming debt maturities.
+
 ##### <span style="color: #ae9142;">GTCR LBO Project (Team Member | Fall 2023)</span>
 - Evaluated **Teladoc** as a leveraged buyout candidate using precedent transactions, DCF, and LBO modeling. Recommended a strategic acquisition at a 30% premium to the GTCR team in Chicago.
 
