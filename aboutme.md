@@ -24,7 +24,7 @@ In my free time, I love competing — whether it’s playing poker, euchre, or o
 # Work Experience
 
 ### <span style="color: #ae9142;">Morgan Stanley, Incoming Sophomore Investment Banking Analyst, Manhattan, NY | Summer 2025</span>
-- Selected as an incoming Sophomore Investment Banking Analyst for Summer 2025 at Morgan Stanley's Manhattan office.
+- Joining the Mergers & Acquisitions group as an incoming Sophomore Investment Banking Analyst for Summer 2025 at Morgan Stanley's Manhattan office.
 
 ### <span style="color: #ae9142;">Kuttin Family Office, Intern, Hauppauge, NY | Spring 2024 | Summer 2024</span>
 - Interned virtually at **Kuttin Family Office**, a team within Ameriprise Financial Services specializing in private business acquisitions under the supervision of Notre Dame alumni Tom Daly. 
